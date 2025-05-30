@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/sharonkumar1/insure-me-project.git'
+                git branch: 'main', credentialsId: 'Github-creds', url: 'https://github.com/sharonkumar1/insure-me-project.git'
             }
         }
 
