@@ -3,7 +3,6 @@ pipeline {
 
     tools {
         maven 'maven'       // Name of your Maven tool in Jenkins
-        dockerTool 'docker' // Name of your Docker tool in Jenkins
     }
 
     environment {
